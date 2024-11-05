@@ -1,0 +1,55 @@
+body {
+
+    color:black;
+    background: wheat;
+    margin: 0px;
+    font-family: "Concert One", sans-serif;
+    margin-bottom: 100px;
+    }
+    
+    
+    header{
+    border-bottom: solid 2px rgb(165, 42, 42);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(26, 121, 128);
+    }
+    .chamada {
+   background: rgb(202, 149, 49);
+   padding-bottom: 80px;
+   padding-top: 80px;
+   display: flex;
+   justify-content: center;
+     }
+
+
+     .chamada-texto{
+        margin-right: 5%;
+        }
+        h1 {
+            font-size: 20px;
+         }
+         img {
+         height: 200px;}
+         .categoria-videos {
+          display: flex
+          overflow-x: auto;
+          gap: 30px;
+         }
+        
+         .categoria {
+          padding-left: 20px;
+          padding-right: 20px;
+          margin-top: 50px; 
+         }
+         .categoria-videos img {
+         opacity: 0.5;
+         height: 200px;
+         }
+
+         .categoria-videos img:hover{
+            opacity: 1.0;
+            border: 1px solid brown;}
+           
+            .categoria h2 {
+              color:  rgb(26, 121, 128);}
